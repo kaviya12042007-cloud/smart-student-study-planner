@@ -1,0 +1,78 @@
+/* === DREAM BACKGROUND === */
+body {
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.75)), url('image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === FORM BOX === */
+.planner-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+}
+
+.planner-form h2 {
+  text-align: center;
+  color: #4a6cf7;
+  margin-bottom: 20px;
+}
+
+.planner-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.planner-form input,
+.planner-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.planner-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.planner-form button:hover {
+  background: #3a5ce5;
+}
+
+/* === ASSIGNMENT LIST === */
+#assignmentList {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#assignmentList div {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

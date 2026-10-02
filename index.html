@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Student Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Smart Student Study Planner</h1>
+
+    <p>Manage your subjects, assignments and deadlines easily.</p>
+<div class="planner-form">
+
+    <h2>Add Assignment</h2>
+
+    <label>Subject</label>
+    <input type="text" id="subject" placeholder="Enter subject">
+
+    <label>Assignment</label>
+    <input type="text" id="assignment" placeholder="Enter assignment">
+
+    <label>Deadline</label>
+    <input type="date" id="deadline">
+
+    <label>Status</label>
+    <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+    </select>
+
+    <button onclick="addAssignment()">Add Assignment</button>
+<div id="assignmentList"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
